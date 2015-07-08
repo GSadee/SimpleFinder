@@ -10,5 +10,10 @@
             "name": "Grzegorz Sadowski",
             "email": "sadowskigp@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Test\\Component\\": "src/Component"
+        }
+    }
 }

@@ -1,0 +1,14 @@
+{
+    "name": "sadowskigp/simple-finder",
+    "description": "Test package to list all files with their size in current directory",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/finder": "^2.7.1"
+    },
+    "authors": [
+        {
+            "name": "Grzegorz Sadowski",
+            "email": "sadowskigp@gmail.com"
+        }
+    ]
+}

@@ -1,9 +1,15 @@
 {
     "name": "sadowskigp/simple-finder",
     "description": "Test package to list all files with their size in current directory",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/GSadee/symfony"
+        }
+    ],
     "require": {
         "php": ">=5.3.9",
-        "symfony/finder": "^2.7.1"
+        "symfony/symfony": "dev-my-branch as 2.9.x-dev"
     },
     "authors": [
         {
